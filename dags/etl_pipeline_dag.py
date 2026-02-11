@@ -80,7 +80,7 @@ with DAG(
     'etl_pipeline_dag',
     default_args=default_args,
     description='ETL pipeline with task groups',
-    schedule_interval='@daily',
+    schedule='@daily',
     start_date=datetime(2024, 1, 1),
     catchup=False,
     tags=['etl', 'pipeline', 'data-warehouse'],

@@ -91,7 +91,7 @@ with DAG(
     'system_monitoring_dag',
     default_args=default_args,
     description='System health monitoring DAG',
-    schedule_interval='*/5 * * * *',  # Every 5 minutes
+    schedule='*/5 * * * *',  # Every 5 minutes
     start_date=datetime(2024, 1, 1),
     catchup=False,
     tags=['monitoring', 'health-check'],

@@ -59,7 +59,7 @@ with DAG(
     'data_processing_dag',
     default_args=default_args,
     description='Data processing DAG with branching logic',
-    schedule_interval='@hourly',
+    schedule='@hourly',
     start_date=datetime(2024, 1, 1),
     catchup=False,
     tags=['data', 'processing', 'branching'],
