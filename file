@@ -1,1 +1,0 @@
-{"Type":"bind","Source":"/Users/alexrs/airflow3/dags","Destination":"/usr/local/airflow/dags","Mode":"rw,z","RW":true,"Propagation":"rprivate"}
